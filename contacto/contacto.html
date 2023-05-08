@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+
+    <style>
+      a {
+          text-decoration: none;
+      }
+  </style>
+</head>
+<body>
+
+    <section>
+        <nav id="navegacion">
+    
+          <ul class="ul1">
+             <li><a id="mya" href="../index.html#inicio" target="">Inicio</a></li>
+              <li><a id="mya" href="../index.html#catalogo" target="">Catalogo</a></li>
+              <li><a id="mya" href="../index.html#promociones" target="">Promociones</a></li>
+              <li><a id="mya" href="../faq/faq.html" target="">Preguntas Frecuentes</a></li>
+              <li><a id="mya" href="../politicas/politicas.html" >Politicas y Privacidad</a></li>
+              <li><a id="mya" href="#titulo" target="">Contacto</a></li>
+          </ul> 
+          <hr>
+        </nav>
+        
+        <div class="cabecera">
+          <h1 id="titulo">RJ-PC'S: Contacto</h1>
+        </div>
+      </section>
+      <hr>
+
+    <header class="banner">
+
+    </header>
+
+    <main class="contenedor" >
+        <div class=" div-img">
+            <img src="../img/0014.jpg" width="450" height="750">
+        </div>
+
+        <form class="formulario" action="">
+
+            <div class="form-datos">
+
+                <h2>Formulario de contacto</h2>
+                <label for="nombre">Nombre: </label>
+                <input type="text" required  id="nombre" name="nombre" placeholder="Digite su nombre completo" />
+                
+                <label for="email">E-mail: </label>
+                <input type="email" required id="email" name="email" placeholder="Registre su e-mail" />
+
+                <label for="celular">Celular: </label>
+                <input type="number" required id="celular" name="celular" placeholder="Digite su número celular">
+            </div>
+
+            <div class="genero">
+                <label class="lbl-pregunta">Escoja su género</label>
+
+                <label for="mujer">
+                    <input type="radio" id="mujer" name="genero" value="mujer" />Mujer
+                </label>
+
+                <label for="hombre">
+                <input type="radio" id="hombre" name="genero" value="hombre" />Hombre
+                </label>
+
+            </div>
+
+            <div class="intereses">
+                <label class="lbl-pregunta">¿Qué desea realizar?</label>
+                
+                <label for="cotizacion">
+                    <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">Cotización
+                </label>
+
+                <label for="reclamos">
+                    <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+                </label>
+
+                <label for="observacion">
+                    <input type="checkbox" id="observacion" name="intereses" value="observacion">Observación
+                </label>
+
+                <label for="pregunta">
+                    <input type="checkbox" id="pregunta" name="intereses" value="pregunta">Pregunta
+                </label>
+
+            </div>
+
+            <div class="form-comentarios">
+                <label for="comentarios" class="lbl-pregunta">Escriba sus Comentarios</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="8"> </textarea>
+                <input type="submit" value="Enviar" class="boton">
+            </div>
+
+       </form>
+       
+
+    </main>
+    <div class="decoration">
+
+    </div>
+
+
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="caja">
+                <div class="RJ-PC">
+                  
+                    <p>En RJ-PC'S encontraras todo lo necesesario para
+                      tu diario vivir desde una laptop para la oficina
+                      o para la casa, hasta una potente Pc gamer para jugar los ultimos juegos de temporada.
+                    </p>
+                </div>
+            </div>
+            <div class="caja">
+                <h2>Conocenos</h2>
+                <a href="https://www.google.com">Proximamente</a>
+                <a href="#">Nuestra Marca</a>
+                <a href="#">Videojuegos</a>
+                <a href="#">Locales</a>
+            </div>
+    
+            <div class="caja">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"> Twitter</a>
+                <a href="#"> Linkedin</a>
+                <a href="#"> Instagram</a>
+            </div>
+    
+        </div>
+    
+        <div class="copyright">
+            <p>Todos los derechos reservados © 2023 <b>RJ-PC'S</b></p>
+        </div>
+        <hr>
+    </footer>
+
+</body>
+</html>
